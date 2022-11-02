@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE7F1902912BD2300B0ED83 /* Test_LiveActivitiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7F18F2912BD2300B0ED83 /* Test_LiveActivitiesApp.swift */; };
+		3CE7F1922912BD2300B0ED83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7F1912912BD2300B0ED83 /* ContentView.swift */; };
+		3CE7F1942912BD2400B0ED83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7F1932912BD2400B0ED83 /* Assets.xcassets */; };
+		3CE7F1972912BD2400B0ED83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7F1962912BD2400B0ED83 /* Preview Assets.xcassets */; };
+		3CE7F19E2912BD6900B0ED83 /* TimeTrackingAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7F19D2912BD6900B0ED83 /* TimeTrackingAttributes.swift */; };
+		3CE7F1D62912C30800B0ED83 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE7F1A52912C28500B0ED83 /* WidgetKit.framework */; };
+		3CE7F1D72912C30800B0ED83 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE7F1A72912C28500B0ED83 /* SwiftUI.framework */; };
+		3CE7F1DA2912C30800B0ED83 /* Timer_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7F1D92912C30800B0ED83 /* Timer_WidgetBundle.swift */; };
+		3CE7F1DC2912C30800B0ED83 /* Timer_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7F1DB2912C30800B0ED83 /* Timer_Widget.swift */; };
+		3CE7F1DE2912C30900B0ED83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7F1DD2912C30900B0ED83 /* Assets.xcassets */; };
+		3CE7F1E22912C30900B0ED83 /* Timer_WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3CE7F1D52912C30800B0ED83 /* Timer_WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3CE7F1E62912C38B00B0ED83 /* TimeTrackingAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7F19D2912BD6900B0ED83 /* TimeTrackingAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CE7F1E02912C30900B0ED83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE7F1842912BD2300B0ED83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE7F1D42912C30800B0ED83;
+			remoteInfo = Timer_WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CE7F1B92912C28600B0ED83 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3CE7F1E22912C30900B0ED83 /* Timer_WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CE7F18C2912BD2300B0ED83 /* Test_LiveActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_LiveActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7F18F2912BD2300B0ED83 /* Test_LiveActivitiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_LiveActivitiesApp.swift; sourceTree = "<group>"; };
+		3CE7F1912912BD2300B0ED83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CE7F1932912BD2400B0ED83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE7F1962912BD2400B0ED83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CE7F19D2912BD6900B0ED83 /* TimeTrackingAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingAttributes.swift; sourceTree = "<group>"; };
+		3CE7F1A52912C28500B0ED83 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3CE7F1A72912C28500B0ED83 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3CE7F1D52912C30800B0ED83 /* Timer_WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Timer_WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7F1D92912C30800B0ED83 /* Timer_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_WidgetBundle.swift; sourceTree = "<group>"; };
+		3CE7F1DB2912C30800B0ED83 /* Timer_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Widget.swift; sourceTree = "<group>"; };
+		3CE7F1DD2912C30900B0ED83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE7F1DF2912C30900B0ED83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE7F1892912BD2300B0ED83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7F1D22912C30800B0ED83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7F1D72912C30800B0ED83 /* SwiftUI.framework in Frameworks */,
+				3CE7F1D62912C30800B0ED83 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE7F1832912BD2300B0ED83 = {
+			isa = PBXGroup;
+			children = (
+				3CE7F18E2912BD2300B0ED83 /* Test_LiveActivities */,
+				3CE7F1D82912C30800B0ED83 /* Timer_Widget */,
+				3CE7F1A42912C28500B0ED83 /* Frameworks */,
+				3CE7F18D2912BD2300B0ED83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE7F18D2912BD2300B0ED83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7F18C2912BD2300B0ED83 /* Test_LiveActivities.app */,
+				3CE7F1D52912C30800B0ED83 /* Timer_WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE7F18E2912BD2300B0ED83 /* Test_LiveActivities */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7F18F2912BD2300B0ED83 /* Test_LiveActivitiesApp.swift */,
+				3CE7F1912912BD2300B0ED83 /* ContentView.swift */,
+				3CE7F19D2912BD6900B0ED83 /* TimeTrackingAttributes.swift */,
+				3CE7F1932912BD2400B0ED83 /* Assets.xcassets */,
+				3CE7F1952912BD2400B0ED83 /* Preview Content */,
+			);
+			path = Test_LiveActivities;
+			sourceTree = "<group>";
+		};
+		3CE7F1952912BD2400B0ED83 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7F1962912BD2400B0ED83 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CE7F1A42912C28500B0ED83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7F1A52912C28500B0ED83 /* WidgetKit.framework */,
+				3CE7F1A72912C28500B0ED83 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CE7F1D82912C30800B0ED83 /* Timer_Widget */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7F1D92912C30800B0ED83 /* Timer_WidgetBundle.swift */,
+				3CE7F1DB2912C30800B0ED83 /* Timer_Widget.swift */,
+				3CE7F1DD2912C30900B0ED83 /* Assets.xcassets */,
+				3CE7F1DF2912C30900B0ED83 /* Info.plist */,
+			);
+			path = Timer_Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE7F18B2912BD2300B0ED83 /* Test_LiveActivities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE7F19A2912BD2400B0ED83 /* Build configuration list for PBXNativeTarget "Test_LiveActivities" */;
+			buildPhases = (
+				3CE7F1882912BD2300B0ED83 /* Sources */,
+				3CE7F1892912BD2300B0ED83 /* Frameworks */,
+				3CE7F18A2912BD2300B0ED83 /* Resources */,
+				3CE7F1B92912C28600B0ED83 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE7F1E12912C30900B0ED83 /* PBXTargetDependency */,
+			);
+			name = Test_LiveActivities;
+			productName = Test_LiveActivities;
+			productReference = 3CE7F18C2912BD2300B0ED83 /* Test_LiveActivities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CE7F1D42912C30800B0ED83 /* Timer_WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE7F1E32912C30900B0ED83 /* Build configuration list for PBXNativeTarget "Timer_WidgetExtension" */;
+			buildPhases = (
+				3CE7F1D12912C30800B0ED83 /* Sources */,
+				3CE7F1D22912C30800B0ED83 /* Frameworks */,
+				3CE7F1D32912C30800B0ED83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer_WidgetExtension;
+			productName = Timer_WidgetExtension;
+			productReference = 3CE7F1D52912C30800B0ED83 /* Timer_WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE7F1842912BD2300B0ED83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3CE7F18B2912BD2300B0ED83 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3CE7F1D42912C30800B0ED83 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CE7F1872912BD2300B0ED83 /* Build configuration list for PBXProject "Test_LiveActivities" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE7F1832912BD2300B0ED83;
+			productRefGroup = 3CE7F18D2912BD2300B0ED83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE7F18B2912BD2300B0ED83 /* Test_LiveActivities */,
+				3CE7F1D42912C30800B0ED83 /* Timer_WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE7F18A2912BD2300B0ED83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7F1972912BD2400B0ED83 /* Preview Assets.xcassets in Resources */,
+				3CE7F1942912BD2400B0ED83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7F1D32912C30800B0ED83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7F1DE2912C30900B0ED83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE7F1882912BD2300B0ED83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7F1922912BD2300B0ED83 /* ContentView.swift in Sources */,
+				3CE7F19E2912BD6900B0ED83 /* TimeTrackingAttributes.swift in Sources */,
+				3CE7F1902912BD2300B0ED83 /* Test_LiveActivitiesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7F1D12912C30800B0ED83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7F1DA2912C30800B0ED83 /* Timer_WidgetBundle.swift in Sources */,
+				3CE7F1E62912C38B00B0ED83 /* TimeTrackingAttributes.swift in Sources */,
+				3CE7F1DC2912C30800B0ED83 /* Timer_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CE7F1E12912C30900B0ED83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE7F1D42912C30800B0ED83 /* Timer_WidgetExtension */;
+			targetProxy = 3CE7F1E02912C30900B0ED83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CE7F1982912BD2400B0ED83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CE7F1992912BD2400B0ED83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CE7F19B2912BD2400B0ED83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test_LiveActivities/Preview Content\"";
+				DEVELOPMENT_TEAM = 99M75C322U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliot.knight.Test-LiveActivities";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CE7F19C2912BD2400B0ED83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test_LiveActivities/Preview Content\"";
+				DEVELOPMENT_TEAM = 99M75C322U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliot.knight.Test-LiveActivities";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CE7F1E42912C30900B0ED83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99M75C322U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timer_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Timer_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliot.knight.Test-LiveActivities.Timer-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CE7F1E52912C30900B0ED83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99M75C322U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timer_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Timer_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliot.knight.Test-LiveActivities.Timer-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE7F1872912BD2300B0ED83 /* Build configuration list for PBXProject "Test_LiveActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7F1982912BD2400B0ED83 /* Debug */,
+				3CE7F1992912BD2400B0ED83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE7F19A2912BD2400B0ED83 /* Build configuration list for PBXNativeTarget "Test_LiveActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7F19B2912BD2400B0ED83 /* Debug */,
+				3CE7F19C2912BD2400B0ED83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE7F1E32912C30900B0ED83 /* Build configuration list for PBXNativeTarget "Timer_WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7F1E42912C30900B0ED83 /* Debug */,
+				3CE7F1E52912C30900B0ED83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CE7F1842912BD2300B0ED83 /* Project object */;
+}
