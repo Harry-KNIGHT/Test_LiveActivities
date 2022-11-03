@@ -13,6 +13,7 @@ struct TimeTrackingAttributes: ActivityAttributes {
 
 	struct ContentState: Codable, Hashable {
 		var startTimer: Date
+		var speed: Int
 	}
 	
 }

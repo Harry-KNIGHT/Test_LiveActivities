@@ -21,7 +21,7 @@ struct Timer_Widget: Widget {
 							.font(.title3)
 							.fontWeight(.semibold)
 						Text("8km/min")
-						Text("13km/h")
+						Text("Speed = \(context.state.speed)")
 					}
 
 
